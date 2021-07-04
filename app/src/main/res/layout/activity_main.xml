@@ -27,7 +27,7 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Email"
-           app:startIconDrawable="@drawable/ic_email"
+           app:startIconDrawable="@drawable/ic_baseline_email_24"
            app:endIconMode="clear_text"
            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 

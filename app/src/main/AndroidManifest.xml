@@ -20,16 +20,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Parkie">
-        <activity android:name=".SplashScreen"
+        <activity android:name=".ControlActivity"></activity>
+        <activity
+            android:name=".SplashScreen"
             android:theme="@style/splash">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
-        <activity android:name=".ScannedBarcodeActivity" />
-        <activity android:name=".MainActivity">
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name=".ScannedBarcodeActivity" />
+        <activity android:name=".MainActivity"></activity>
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
